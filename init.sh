@@ -5,7 +5,7 @@ if [ ! -e .git/hooks/git-meta.sh ]
         echo ""
         echo "It looks like its your first time using this! 🤗"
         echo "- Initializing git-meta on your repo... 🧚"
-        cp -r -f --preserve=all git-meta.sh .git/hooks
+        cp -r -f -p git-meta.sh .git/hooks
         if [ -e .git/hooks/git-meta.sh ]; then
                 echo "git-meta.sh has been placed!"
                 echo ""
