@@ -1,0 +1,8 @@
+chown -h 197609:197121 './git-meta.sh'
+chmod 0755 './git-meta.sh'
+/usr/bin/touch -hcmd "2021-12-21 15:18:17.4620183000 +0800" './git-meta.sh'
+/usr/bin/touch -hcad "2021-12-22 11:05:09.5020130000 +0800" './git-meta.sh'
+chown -h 197609:197121 './init.sh'
+chmod 0755 './init.sh'
+/usr/bin/touch -hcmd "2021-12-21 15:18:17.4989197000 +0800" './init.sh'
+/usr/bin/touch -hcad "2021-12-22 11:04:47.2623844000 +0800" './init.sh'
